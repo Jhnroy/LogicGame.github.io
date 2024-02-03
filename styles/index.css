@@ -62,10 +62,43 @@ body,*{
     border-radius: 10px;
 }
 
+/* Mobile View */
+#game-board-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 0.7vmin;
+   
+}
+
+
+/* Main section */
+#game-board{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 20vmin);
+    grid-template-rows: repeat(4, 20vmin);
+    background-color: beige;
+    gap: 2vmin;
+    border-radius: 1vmin;
+    padding: 2vmin;
+    box-shadow: 5px 10px 8px 8px #888888;
+}
+
+
+
+.cell{
+    background-color: #301934;
+    border-radius: 1vmin;
+}
+
+
 @media (max-width: 400px) {
 
     body{
-        background-color: wheat;
+        background-color: beige;
     }
     
     .title{
