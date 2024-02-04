@@ -1,5 +1,4 @@
 
-
 const toggleButton = document.getElementsByClassName('togglebutton')[0]
 const navbarLinks = document.getElementsByClassName('navbarlinks')[0]
 
